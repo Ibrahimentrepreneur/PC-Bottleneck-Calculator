@@ -1,0 +1,5 @@
+{
+  "name": "PC Bottleneck Calculator",
+  "description": "A tool that calculates the performance bottleneck between your CPU and GPU at different resolutions.",
+  "requestFramePermissions": []
+}
