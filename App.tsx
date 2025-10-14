@@ -1,3 +1,4 @@
+
 import React, { useState, useCallback } from 'react';
 import { CPU_LIST, GPU_LIST, RESOLUTION_LIST } from './constants';
 import type { Cpu, Gpu, Resolution, BottleneckResult } from './types';
@@ -60,8 +61,9 @@ const App: React.FC = () => {
     <div className="min-h-screen bg-slate-900 text-white flex flex-col items-center justify-center p-4 font-sans">
       <div className="w-full max-w-4xl mx-auto">
         <header className="text-center mb-8">
-          <h1 className="text-4xl md:text-5xl font-bold text-cyan-400 tracking-tight">PC Bottleneck Calculator</h1>
-          <p className="text-slate-400 mt-2 text-lg">Find out if your CPU and GPU are a good match for your gaming needs.</p>
+          <h1 className="text-4xl md:text-5xl font-bold text-cyan-400 tracking-tight">Bottleneck Solver</h1>
+          <p className="text-slate-500 italic">not just a calculator</p>
+          <p className="text-slate-400 mt-3 text-lg">Find out if your CPU and GPU are a good match for your gaming needs.</p>
         </header>
 
         <main className="bg-slate-800/50 backdrop-blur-sm p-6 md:p-8 rounded-2xl shadow-2xl border border-slate-700">
