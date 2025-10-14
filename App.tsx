@@ -63,7 +63,7 @@ const App: React.FC = () => {
         <header className="text-center mb-8">
           <h1 className="text-4xl md:text-5xl font-bold text-cyan-400 tracking-tight">Bottleneck Solver</h1>
           <p className="text-slate-500 italic">not just a calculator</p>
-          <p className="text-slate-400 mt-3 text-lg">Find out if your CPU and GPU are a good match for your gaming needs.</p>
+          <p className="text-slate-400 mt-3 text-lg max-w-3xl mx-auto">Find out if your CPU and GPU are a good match for all your tasks, from gaming and creative work to professional use.</p>
         </header>
 
         <main className="bg-slate-800/50 backdrop-blur-sm p-6 md:p-8 rounded-2xl shadow-2xl border border-slate-700">
